@@ -1,0 +1,2 @@
+"use strict";function login(e){if(!e||!e.key||13===e.keyCode){if(!user.value)return void user.focus();if(!psw.value)return void psw.focus();console.log(user.value),console.log(psw.value)}}var user=document.getElementById("user"),psw=document.getElementById("psw"),msg=document.getElementById("msg"),login_btn=document.getElementById("login_btn");login_btn.addEventListener("click",login),user.addEventListener("keyup",login),psw.addEventListener("keyup",login);
+//# sourceMappingURL=main.js.map
