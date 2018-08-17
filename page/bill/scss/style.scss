@@ -1,0 +1,24 @@
+@import '../../../reset';
+
+.btn {
+  font-size: 14px;
+  position: relative;
+  display: inline-block;
+  padding: 0 1em;
+  line-height: 2;
+  border-radius: 4px;
+  background: #50bfff;
+  color: #fff;
+  margin: 0 1em;
+}
+#app {
+  > div {
+    margin: 1em 0;
+  }
+  span {
+    display: inline-block;
+    padding: 0 .5em;
+    line-height: 2;
+  }
+}
+

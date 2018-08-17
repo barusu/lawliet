@@ -2,7 +2,7 @@
  * @author shiro
  */
 
-var host = 'page/login00/';
+var host = 'page/bill/';
 
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
